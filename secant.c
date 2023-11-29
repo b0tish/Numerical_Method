@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <math.h>
-#define f(x) x*x-x-1
+#define f(x) x*x-5*x+6
 #define EPS 0.0001
 
 int main(){
   int iter = 1;
-  float x1,x2,x3,e,f1,f2;
- 
+  float x1,x2,x3,e,f1,f2; 
+  printf("\nInput the two initial guesses:");
+  scanf("%f%f",&x1,&x2);
+
   printf("\nStep\t\t   x1\t\t   f(x1)\t\t   x2\t\t           f(x2)\t\t   x3\t\t          Error\n");
   
   do{

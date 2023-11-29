@@ -6,7 +6,7 @@
 int main(){
   int iter = 1;
   float x1,x2,x0,f1,f2,f0;
-start:
+  start:
 
   printf("Input the two initial guesses:");
   scanf("%f%f",&x1,&x2);

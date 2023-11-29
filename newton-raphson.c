@@ -12,7 +12,7 @@ int main(){
     printf("\nIter\t   x0 \t          f(x0)\t           f'(x0) \t   Error\n");
     do{
         fx = f(x0);
-        fdx= fd(x0);
+  fdx= fd(x0);
         xn = x0 - fx/fdx; 
         error= fabs((xn - x0) / xn);
         printf("%d\t %f \t %f \t %f \t %f\n", count,x0, fx,fdx, error);
